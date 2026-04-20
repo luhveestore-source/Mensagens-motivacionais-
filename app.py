@@ -1,53 +1,60 @@
-import random
 import streamlit as st
+import random
 
-st.set_page_config(page_title="LuhVee Mensagens", page_icon="💖")
+st.title("💖 LuhVee - Gerador de Mensagens Infinitas")
 
-st.title("💖 LuhVee Stores - Mensagens com Links")
+# 🔗 SEUS LINKS
+LINK_PESQUISA = "https://pesquisa-luhvee.streamlit.app"
+LINK_HUB = "https://hublinks-app.streamlit.app"
 
 periodo = st.selectbox("Tipo:", ["Bom Dia", "Boa Tarde", "Boa Noite"])
-quantidade = st.slider("Quantidade:", 1, 200, 10)
+quantidade = st.slider("Quantidade:", 1, 500, 20)
 
-# 🔗 SEUS LINKS (COLOQUE OS REAIS AQUI)
-LINK_PESQUISA = "https://SEU-LINK-PESQUISA"
-LINK_HUB = "https://SEU-LINK-HUB"
+# 🧠 EMOÇÃO + DESEJO + CONEXÃO
+aberturas = [
+    "✨ Hoje pode ser o dia da sua virada...",
+    "💖 Tem coisa boa chegando pra você...",
+    "🌸 Não ignora isso aqui...",
+    "🔥 Você merece muito mais do que imagina...",
+    "💫 Isso aqui pode mudar seu dia..."
+]
 
-aberturas = ["✨ Novo começo!", "🌸 Dica do dia:", "💖 Lembre-se:"]
-meio = ["coisas boas estão chegando", "você merece coisas incríveis", "você é forte"]
-final = ["💖 Confia!", "✨ Vai dar certo!", "🔥 Bora!"]
+meio = [
+    "imagine encontrar algo que combina com você",
+    "coisas assim somem rápido",
+    "muita gente já está aproveitando",
+    "isso chama atenção de verdade",
+    "você vai gostar disso"
+]
 
-def gerar_base():
-    return f"{random.choice(aberturas)} {random.choice(meio)}. {random.choice(final)}"
+fechamento = [
+    "💖 Confia no processo.",
+    "✨ Não deixa pra depois.",
+    "🔥 Pode ser sua chance hoje.",
+    "💫 Aproveita enquanto dá tempo."
+]
 
-def inserir_links():
-    tipo = random.choice(["pesquisa", "hub", "ambos", "nenhum"])
+def gerar():
+    if periodo == "Bom Dia":
+        s = "☀️ Bom dia!"
+    elif periodo == "Boa Tarde":
+        s = "🌤️ Boa tarde!"
+    else:
+        s = "🌙 Boa noite!"
 
-    if tipo == "pesquisa":
-        return f"\n🔍 {LINK_PESQUISA}"
-    elif tipo == "hub":
-        return f"\n🌐 {LINK_HUB}"
-    elif tipo == "ambos":
-        return f"\n🔍 {LINK_PESQUISA}\n🌐 {LINK_HUB}"
-    return ""
+    return f"{s}\n\n{random.choice(aberturas)} {random.choice(meio)}.\n{random.choice(fechamento)}"
 
-if st.button("✨ Gerar mensagens"):
+def links():
+    return f"\n\n🔍 Pesquisa: {LINK_PESQUISA}\n🌐 Hub: {LINK_HUB}"
+
+if st.button("✨ Gerar mensagens infinitas"):
 
     mensagens = []
 
     for _ in range(quantidade):
-
-        if periodo == "Bom Dia":
-            saudacao = "☀️ Bom dia!"
-        elif periodo == "Boa Tarde":
-            saudacao = "🌤️ Boa tarde!"
-        else:
-            saudacao = "🌙 Boa noite!"
-
-        msg = f"{saudacao} {gerar_base()}{inserir_links()}"
+        msg = gerar() + links()
         mensagens.append(msg)
 
-    resultado = "\n\n".join(mensagens)
+    resultado = "\n\n---\n\n".join(mensagens)
 
-    st.success("Mensagens geradas com links!")
-
-    st.text_area("📋 Copie aqui:", resultado, height=400)
+    st.text_area("📋 Copie e poste:", resultado, height=500)
