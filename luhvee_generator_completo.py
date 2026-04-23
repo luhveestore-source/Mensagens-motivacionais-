@@ -422,9 +422,12 @@ def gerar_mensagens(periodo, tom, quantidade):
     
     saudacao = gerar_saudacao(periodo)
     
+    # Link do Hub
+    LINK_HUB = "https://hublinks-app.streamlit.app"
+    
     mensagens = []
     for _ in range(quantidade):
-        msg = f"{saudacao}\n\n{next(ciclo_abertura)} {next(ciclo_meio)}.\n{next(ciclo_fechamento)}\n\nBjs da Luh da LuhVee ❤️"
+        msg = f"{saudacao}\n\n{next(ciclo_abertura)} {next(ciclo_meio)}.\n{next(ciclo_fechamento)}\n\n🛒 Vamos para as compras 🛍️🛍️\n{LINK_HUB}\n\nBjs da Luh da LuhVee ❤️"
         mensagens.append(msg)
     
     return mensagens
