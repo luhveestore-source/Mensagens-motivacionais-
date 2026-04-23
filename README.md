@@ -1,198 +1,220 @@
-# 💖 LuhVee - Gerador de Mensagens Infinitas
+# 💖 LuhVee - Mensagens de Felicidade
 
-Um gerador de mensagens de marketing inteligente e dinâmico feito com Streamlit. Crie mensagens únicas e variadas para suas campanhas com 8 tons diferentes!
+Um gerador de mensagens positivas, motivacionais e amorosas para deixar o dia de seus clientes mais feliz! 
+
+Mensagens que vêm direto do coração, assinadas com carinho: **Bjs da Luh da LuhVee ❤️**
 
 ## ✨ Características
 
-✅ **8 Tons Diferentes:**
-- 💖 **Inspirador** - Motivacional e transformador
-- 🔥 **Urgente** - Cria senso de pressa
-- 😊 **Amigável** - Conversinha de amiga
-- 👑 **Exclusive** - VIP e premium
-- 💰 **Economia** - Foca em descontos e economia
-- 😱 **FOMO** - Fear of Missing Out
-- 👥 **Social Proof** - Prova social
-- 🤔 **Curiosidade** - Desperta interesse
+✅ **8 Vibes Diferentes:**
+- 💖 **Amor Próprio** - Valorizar-se e se amar
+- 🙏 **Gratidão** - Agradecer pelas bênçãos
+- 🚀 **Motivação** - Inspirar a continuar
+- ☀️ **Positividade** - Energia positiva
+- 👑 **Autoconfiança** - Acreditar em si
+- 💆‍♀️ **Bem-estar** - Cuida da saúde mental
+- 🌅 **Esperança** - Acreditar que melhora
+- 🎉 **Celebração** - Comemorar vitórias
 
-✅ **10 Variações em Cada Categoria**
-- Aberturas únicas
-- Meios argumentativos
-- Fechamentos persuasivos
+✅ **Mensagens 100% Positivas**
+- Nenhuma mensagem sobre vendas
+- Foco total em bem-estar emocional
+- Inspiração genuína
 
-✅ **Sistema Anti-Repetição**
-- Embaralhamento aleatório
-- Ciclos inteligentes
-- Geração de até 500 mensagens sem padrão óbvio
+✅ **Assinatura Pessoal**
+- Todas as mensagens terminam com: **Bjs da Luh da LuhVee ❤️**
+- Cria conexão pessoal com seus clientes
 
 ✅ **3 Períodos do Dia**
 - ☀️ Bom Dia
 - 🌤️ Boa Tarde
 - 🌙 Boa Noite
 
-✅ **Fácil de Usar**
-- Interface intuitiva
-- 1 clique para gerar
-- Copia pronta para postar
-
 ## 🚀 Como Usar
 
 ### 1. Instalação Local
 
 ```bash
-# Clone o repositório
 git clone https://github.com/seu-usuario/luhvee-message-generator.git
 cd luhvee-message-generator
-
-# Instale as dependências
-pip install streamlit
-
-# Execute o app
-streamlit run luhvee_generator_completo.py
+pip install -r requirements.txt
+streamlit run luhvee_felicidade.py
 ```
 
-### 2. Deploy no Streamlit Cloud
+### 2. No App
 
-1. Faça push do código para o GitHub
-2. Vá para [streamlit.cloud](https://streamlit.io/cloud)
-3. Clique em "New app"
-4. Conecte seu repositório GitHub
-5. Selecione o arquivo `luhvee_generator_completo.py`
-6. Clique em "Deploy"
+1. Escolha o **período do dia**
+2. Selecione uma **vibe/energia**
+3. Defina a **quantidade** (1-500)
+4. Clique em **"Gerar mensagens de felicidade"**
+5. Copie e compartilhe com seus clientes! 💖
 
-## 📋 Como Usar o App
+## 💡 Exemplos de Mensagens
 
-1. **Selecione o Período**: Bom Dia, Boa Tarde ou Boa Noite
-2. **Escolha o Tom**: Inspirador, Urgente, Amigável, etc.
-3. **Define a Quantidade**: De 1 a 500 mensagens
-4. **Clique em "Gerar mensagens infinitas"**
-5. **Copie e Cole** nos seus textos/redes sociais
+### Vibe: Amor Próprio
+
+```
+☀️ Bom dia!
+
+💖 Você merece todo o amor do mundo... 
+cuide de si como se fosse alguém especial.
+💖 Você merece tudo isso e muito mais.
+
+Bjs da Luh da LuhVee ❤️
+```
+
+### Vibe: Motivação
+
+```
+☀️ Bom dia!
+
+🚀 Você é mais capaz do que imagina... 
+porque você vem vencendo todos os dias.
+🚀 Você consegue, vai conseguir.
+
+Bjs da Luh da LuhVee ❤️
+```
+
+### Vibe: Bem-estar
+
+```
+🌙 Boa noite!
+
+🧘‍♀️ Respire, você está bem... 
+porque sua mente merecia parar.
+🧘‍♀️ Respire fundo, você está segura.
+
+Bjs da Luh da LuhVee ❤️
+```
+
+## 🎯 Casos de Uso
+
+✅ **Instagram Stories** - Poste diariamente para seus seguidores
+✅ **WhatsApp Broadcast** - Envie para sua lista de clientes
+✅ **Email Marketing** - Mensagens motivacionais periódicas
+✅ **Lives e Transmissões** - Comece suas transmissões com positividade
+✅ **Comunidades** - Compartilhe no grupo da comunidade
+✅ **Redes Sociais** - TikTok, Pinterest, Threads
+
+## 📊 8 Vibes Explicadas
+
+| Vibe | Quando usar | Exemplo |
+|------|-----------|---------|
+| Amor Próprio | Quando quer inspirar autoestima | Segunda de manhã |
+| Gratidão | Para reconhecer bênçãos | Domingo |
+| Motivação | Para impulsionar ação | Segunda ou quarta |
+| Positividade | Para elevar energia | Qualquer dia |
+| Autoconfiança | Para fortalecer segurança | Antes de eventos |
+| Bem-estar | Para tranquilidade | Noite ou dia estressante |
+| Esperança | Para momentos difíceis | Qualquer hora |
+| Celebração | Para comemorar | Quando tiver motivo |
 
 ## 🎨 Personalizando
 
-### Adicionar Novo Tom
+### Mudar a Assinatura
 
-1. Abra `luhvee_generator_completo.py`
-2. Crie três listas para seu novo tom:
+Abra `luhvee_felicidade.py` e procure por:
 
 ```python
-aberturas_novo_tom = [
-    "✨ Primeira mensagem...",
-    "💖 Segunda mensagem...",
-    # ... 8 mais opções
+msg = f"{saudacao}\n\n{next(ciclo_abertura)} {next(ciclo_meio)}.\n{next(ciclo_fechamento)}\n\nBjs da Luh da LuhVee ❤️"
+```
+
+Troque `"Bjs da Luh da LuhVee ❤️"` por sua assinatura personalizada!
+
+### Adicionar Nova Vibe
+
+1. Crie 3 listas com 10 frases cada:
+
+```python
+aberturas_sua_vibe = [
+    "✨ Sua mensagem aqui...",
+    # ... 9 mais
 ]
 
-meios_novo_tom = [
+meios_sua_vibe = [
     "seu argumento aqui",
-    # ... 9 mais opções
+    # ... 9 mais
 ]
 
-fechamentos_novo_tom = [
-    "💖 Chamada final.",
-    # ... 9 mais opções
+fechamentos_sua_vibe = [
+    "✨ Seu fechamento aqui.",
+    # ... 9 mais
 ]
 ```
 
-3. Adicione ao dicionário `BANCOS`:
+2. Adicione ao dicionário `BANCOS`:
 
 ```python
 BANCOS = {
-    # ... tons existentes
-    "Seu Novo Tom": {
-        "abertura": aberturas_novo_tom,
-        "meio": meios_novo_tom,
-        "fechamento": fechamentos_novo_tom
+    # ... outras vibes
+    "Sua Nova Vibe": {
+        "abertura": aberturas_sua_vibe,
+        "meio": meios_sua_vibe,
+        "fechamento": fechamentos_sua_vibe
     }
 }
 ```
 
-### Alterar Links
+## 💝 Por que Mensagens Positivas?
 
-Procure pelas linhas:
-```python
-LINK_PESQUISA = "https://pesquisa-luhvee.streamlit.app"
-LINK_HUB = "https://hublinks-app.streamlit.app"
-```
+✨ **Conexão Genuína** - Cria laço emocional com seus clientes
+✨ **Diferencial** - Ninguém mais faz isso do jeito que você faz
+✨ **Lealdade** - Clientes amam ser cuidados emocionalmente
+✨ **Engajamento** - Positividade gera compartilhamentos
+✨ **Marca Pessoal** - Você fica conhecido por trazer felicidade
+✨ **Impacto Real** - Muda o dia de alguém de verdade
 
-E substitua pelos seus links.
+## 📱 Dicas de Uso
 
-## 📊 Estrutura do Código
+1. **Consistência** - Poste no mesmo horário
+2. **Diversidade** - Varie os tons/vibes
+3. **Autenticidade** - Acredite no que está compartilhando
+4. **Engajamento** - Responda quem comentar
+5. **Regularidade** - Faça isto um hábito
 
-```
-luhvee_generator_completo.py
-├── Imports e Config
-├── Links (customizáveis)
-├── Seleção de Período e Tom
-├── 8 Bancos de Mensagens (10 variações cada)
-├── Dicionário BANCOS
-├── Funções:
-│   ├── gerar_saudacao()
-│   ├── gerar_mensagens()
-│   └── adicionar_links()
-└── Interface Streamlit
-```
-
-## 💡 Dicas de Marketing
-
-### Melhor Prática de Uso
-
-- **Bom Dia**: Use tons Inspirador ou Curiosidade
-- **Boa Tarde**: Use Urgente ou FOMO
-- **Boa Noite**: Use Amigável ou Social Proof
-
-### A/B Testing
-
-Gere mensagens com tons diferentes e teste qual tem melhor engajamento:
-- Acompanhe clicks de cada tom
-- Otimize baseado em dados
-- Repita o tom vencedor
-
-## 🔧 Requisitos
-
-- Python 3.8+
-- Streamlit 1.0+
-
-## 📦 Instalação de Dependências
+## 🚀 Deploy
 
 ```bash
-pip install -r requirements.txt
+# Criar repositório no GitHub
+git init
+git add .
+git commit -m "LuhVee Felicidade - Mensagens de amor"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/luhvee-felicidade.git
+git push -u origin main
+
+# Deploy no Streamlit Cloud
+# 1. Vá para streamlit.io/cloud
+# 2. Conecte seu GitHub
+# 3. Selecione seu repositório
+# 4. Arquivo: luhvee_felicidade.py
+# 5. Deploy!
 ```
 
-Ou manualmente:
-```bash
-pip install streamlit
-```
+## 💖 Impacto que Você Vai Fazer
 
-## 🎯 Roadmap
+Cada mensagem que você gera pode:
+- ✨ Salvar alguém de um dia ruim
+- 💖 Fortalecer a autoestima de uma mulher
+- 🌟 Inspirar alguém a continuar
+- 💪 Dar força para enfrentar dificuldades
+- 🎯 Mostrar que alguém se importa
+- 🌈 Trazer um sorriso sincero
 
-- [ ] Adicionar tom de "Educação"
-- [ ] Adicionar tom de "Humor"
-- [ ] Integração com Excel para export
-- [ ] Análise de performance
-- [ ] Histórico de gerações
-- [ ] Customização de emojis por tom
+## 🎁 Bônus: Cronograma Sugerido
 
-## 📝 Licença
-
-MIT License - Sinta-se livre para usar, modificar e distribuir!
-
-## 🤝 Contribuindo
-
-1. Faça um Fork
-2. Crie uma branch (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 💬 Suporte
-
-Precisa de ajuda? Abra uma issue no GitHub!
+**Segunda:** Motivação 🚀
+**Terça:** Autoconfiança 👑
+**Quarta:** Positividade ☀️
+**Quinta:** Amor Próprio 💖
+**Sexta:** Celebração 🎉
+**Sábado:** Bem-estar 💆‍♀️
+**Domingo:** Gratidão 🙏
 
 ---
 
-**Feito com ❤️ para o LuhVee** 
+**Pronto para espalhar felicidade?** 💖
 
-Transformando estratégia em mensagens que vendem! 🚀
+Cada mensagem é uma semente de alegria plantada no coração de alguém.
 
-![Status](https://img.shields.io/badge/status-ativo-brightgreen)
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red)
+**Bjs da Luh da LuhVee ❤️**
